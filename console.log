@@ -1,0 +1,85 @@
+I0324 18:46:11.800425 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to ../node1/geth/chaindata
+I0324 18:46:11.806261 ethdb/database.go:176] closed db:../node1/geth/chaindata
+I0324 18:46:11.806933 node/node.go:176] instance: Geth/v1.5.9-stable-a07539fb/darwin/go1.8
+I0324 18:46:11.806961 ethdb/database.go:83] Allotted 128MB cache and 1024 file handles to ../node1/geth/chaindata
+I0324 18:46:11.851798 eth/backend.go:187] Protocol Versions: [63 62], Network Id: 1234
+I0324 18:46:11.851970 eth/backend.go:215] Chain config: {ChainID: 0 Homestead: <nil> DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil>}
+I0324 18:46:11.852546 core/blockchain.go:219] Last header: #0 [6650a0ac…] TD=1024
+I0324 18:46:11.852559 core/blockchain.go:220] Last block: #0 [6650a0ac…] TD=1024
+I0324 18:46:11.852565 core/blockchain.go:221] Fast block: #0 [6650a0ac…] TD=1024
+I0324 18:46:11.853377 p2p/server.go:340] Starting Server
+I0324 18:46:14.002997 p2p/discover/udp.go:227] Listening, enode://42d502ea791791f007ba5737f8360f2691019d12cf44e0d63109ae1ac3eaea31c553ba1e37c5bb4f04718473317d12f7089d43295c9771f5fff52537b8fa5710@[::]:30303
+I0324 18:46:14.003171 p2p/server.go:608] Listening on [::]:30303
+I0324 18:46:14.004361 node/nodI0324 18:48:58.721925 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in  13.926ms ( 0.000 Mg/s). #1 [85ca43af…]
+I0324 18:49:00.998467 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in  10.373ms ( 0.000 Mg/s). #2 [bd144fc4…]
+I0324 18:49:02.612150 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in  10.486ms ( 0.000 Mg/s). #3 [caa24e46…]
+I0324 18:49:11.075834 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in  11.724ms ( 0.000 Mg/s). #4 [15b02b1c…]
+I0324 18:49:18.541136 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in   3.596ms ( 0.000 Mg/s). #5 [e67f3d8d…]
+I0324 18:49:19.130133 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in   3.763ms ( 0.000 Mg/s). #6 [24e361a6…]
+I0324 18:49:19.412274 eth/downloader/downloader.go:326] Block synchronisation started
+I0324 18:49:22.384187 core/blockchain.go:1070] imported    2 blocks,     0 txs (  0.000 Mg) in  11.953ms ( 0.000 Mg/s). #9 [85ca43af… / b48d1b15…] (0 queued 7 ignored)
+I0324 18:49:22.531841 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in   3.594ms ( 0.000 Mg/s). #10 [50a04413…]
+I0324 18:49:23.345450 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in   3.713ms ( 0.000 Mg/s). #11 [0d61d1fd…]
+I0324 18:49:24.708869 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in   3.582ms ( 0.000 Mg/s). #12 [d866e33a…]
+I0324 18:49:25.291898 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in   3.576ms ( 0.000 Mg/s). #13 [5ee25e3a…]
+I0324 18:49:27.679416 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in   3.686ms ( 0.000 Mg/s). #14 [16458ce4…]
+I0324 18:49:27.986537 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in   3.687ms ( 0.000 Mg/s). #15 [bbd3d402…]
+I0324 18:49:28.327911 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in   3.572ms ( 0.000 Mg/s). #16 [e17d2b11…]
+I0324 18:49:30.077725 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in   4.538ms ( 0.000 Mg/s). #18 [52ea6dc7…]
+I0324 18:49:33.835483 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in   4.404ms ( 0.000 Mg/s). #19 [159769f3…]
+I0324 18:49:33.839351 core/blockchain.go:1070] imported    1 blocks,     0 txs (  0.000 Mg) in   3.819ms ( 0.000 Mg/s). #20 [27c09790…]
+I0324 20:02:15.802357 node/node.go:373] IPC endpoint closed: ../node1/geth.ipc
+I0324 20:02:15.802403 core/blockchain.go:589] Chain manager stopped
+I0324 20:02:15.802411 eth/handler.go:230] Stopping ethereum protocol handler...
+I0324 20:02:15.802429 eth/handler.go:251] Ethereum protocol handler stopped
+I0324 20:02:15.802556 core/tx_pool.go:196] Transaction pool stopped
+I0324 20:02:15.802575 eth/backend.go:519] Automatic pregeneration of ethash DAG OFF (ethash dir: /Users/Asger/.ethash)
+I0324 20:02:15.802938 ethdb/database.go:176] closed db:../node2/geth/chaindata
+miner/unconfirmed.go:83] 🔨  mined potential block #9 [b48d1b15…], waiting for 5 blocks to confirm
+I0324 18:49:22.370034 miner/worker.go:517] commit new work on block 10 with 0 txs & 0 uncles. Took 173.625µs
+I0324 18:49:22.524391 miner/unconfirmed.go:105] 🔗  mined block #5 [e67f3d8d…] reached canonical chain
+I0324 18:49:22.524413 miner/unconfirmed.go:83] 🔨  mined potential block #10 [50a04413…], waiting for 5 blocks to confirm
+I0324 18:49:22.524613 miner/worker.go:517] commit new work on block 11 with 0 txs & 0 uncles. Took 184.532µs
+I0324 18:49:23.338039 miner/unconfirmed.go:105] 🔗  mined block #6 [24e361a6…] reached canonical chain
+I0324 18:49:23.338054 miner/unconfirmed.go:83] 🔨  mined potential block #11 [0d61d1fd…], waiting for 5 blocks to confirm
+I0324 18:49:23.338249 miner/worker.go:517] commit new work on block 12 with 0 txs & 0 uncles. Took 153.591µs
+I0324 18:49:24.701529 miner/unconfirmed.go:105] 🔗  mined block #7 [204705b8…] reached canonical chain
+I0324 18:49:24.701545 miner/unconfirmed.go:83] 🔨  mined potential block #12 [d866e33a…], waiting for 5 blocks to confirm
+I0324 18:49:24.701780 miner/worker.go:517] commit new work on block 13 with 0 txs & 0 uncles. Took 155.002µs
+I0324 18:49:25.284583 miner/unconfirmed.go:105] 🔗  mined block #8 [aebe9942…] reached canonical chain
+I0324 18:49:25.284691 miner/unconfirmed.go:83] 🔨  mined potential block #13 [5ee25e3a…], waiting for 5 blocks to confirm
+I0324 18:49:25.284840 miner/worker.go:517] commit new work on block 14 with 0 txs & 0 uncles. Took 194.93µs
+I0324 18:49:27.672103 miner/unconfirmed.go:105] 🔗  mined block #9 [b48d1b15…] reached canonical chain
+I0324 18:49:27.672123 miner/unconfirmed.go:83] 🔨  mined potential block #14 [16458ce4…], waiting for 5 blocks to confirm
+I0324 18:49:27.672283 miner/worker.go:517] commit new work on block 15 with 0 txs & 0 uncles. Took 135.601µs
+I0324 18:49:27.979161 miner/unconfirmed.go:105] 🔗  mined block #10 [50a04413…] reached canonical chain
+I0324 18:49:27.979182 miner/unconfirmed.go:83] 🔨  mined potential block #15 [bbd3d402…], waiting for 5 blocks to confirm
+I0324 18:49:27.979395 miner/worker.go:517] commit new work on block 16 with 0 txs & 0 uncles. Took 190.385µs
+I0324 18:49:28.320594 miner/unconfirmed.go:105] 🔗  mined block #11 [0d61d1fd…] reached canonical chain
+I0324 18:49:28.320609 miner/unconfirmed.go:83] 🔨  mined potential block #16 [e17d2b11…], waiting for 5 blocks to confirm
+I0324 18:49:28.320814 miner/worker.go:517] commit new work on block 17 with 0 txs & 0 uncles. Took 172.946µs
+I0324 18:49:28.490654 miner/unconfirmed.go:105] 🔗  mined block #12 [d866e33a…] reached canonical chain
+I0324 18:49:28.490669 miner/unconfirmed.go:83] 🔨  mined potential block #17 [34c34dfa…], waiting for 5 blocks to confirm
+I0324 18:49:28.490870 miner/worker.go:517] commit new work on block 18 with 0 txs & 0 uncles. Took 173.14µs
+I0324 18:49:28.585068 miner/unconfirmed.go:105] 🔗  mined block #13 [5ee25e3a…] reached canonical chain
+I0324 18:49:28.585087 miner/unconfirmed.go:83] 🔨  mined potential block #18 [52ea6dc7…], waiting for 5 blocks to confirm
+I0324 18:49:28.585212 miner/worker.go:517] commit new work on block 19 with 0 txs & 0 uncles. Took 114.59µs
+I0324 18:49:28.787791 miner/unconfirmed.go:105] 🔗  mined block #14 [16458ce4…] reached canonical chain
+I0324 18:49:28.787810 miner/unconfirmed.go:83] 🔨  mined potential block #19 [159769f3…], waiting for 5 blocks to confirm
+I0324 18:49:28.787970 miner/worker.go:517] commit new work on block 20 with 0 txs & 0 uncles. Took 143.453µs
+I0324 18:49:29.565123 miner/unconfirmed.go:105] 🔗  mined block #15 [bbd3d402…] reached canonical chain
+I0324 18:49:29.565171 miner/unconfirmed.go:83] 🔨  mined potential block #20 [27c09790…], waiting for 5 blocks to confirm
+I0324 18:49:29.565290 miner/worker.go:517] commit new work on block 21 with 0 txs & 0 uncles. Took 139.741µs
+I0324 19:51:34.767417 usb.go:93] handle_events: error: libusb: interrupted [code -10]
+I0324 19:52:04.114394 usb.go:93] handle_events: error: libusb: interrupted [code -10]
+I0324 19:52:24.218528 usb.go:93] handle_events: error: libusb: interrupted [code -10]
+I0324 19:53:02.253759 usb.go:93] handle_events: error: libusb: interrupted [code -10]
+I0324 19:55:29.471159 usb.go:93] handle_events: error: libusb: interrupted [code -10]
+I0324 20:01:43.710865 usb.go:93] handle_events: error: libusb: interrupted [code -10]
+I0324 20:02:13.641105 node/node.go:373] IPC endpoint closed: ../node1/geth.ipc
+I0324 20:02:13.641155 core/blockchain.go:589] Chain manager stopped
+I0324 20:02:13.641169 eth/handler.go:230] Stopping ethereum protocol handler...
+I0324 20:02:13.641910 eth/handler.go:251] Ethereum protocol handler stopped
+I0324 20:02:13.642013 core/tx_pool.go:196] Transaction pool stopped
+I0324 20:02:13.642038 eth/backend.go:519] Automatic pregeneration of ethash DAG OFF (ethash dir: /Users/Asger/.ethash)
+I0324 20:02:13.642552 ethdb/database.go:176] closed db:../node1/geth/chaindata
